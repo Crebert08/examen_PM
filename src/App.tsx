@@ -1,10 +1,11 @@
 import React from 'react';
+import LoginForm from './components/LoginForm';
 
 
 function App() {
   return (
-    <div className="App">
-      Kiri gute ?
+    <div >
+      <LoginForm />
     </div>
   );
 }
